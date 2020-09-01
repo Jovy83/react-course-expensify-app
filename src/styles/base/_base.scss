@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%;
+  // this will make 1rem = 10px to make it easier
+  // 2.2rem = 22px
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
